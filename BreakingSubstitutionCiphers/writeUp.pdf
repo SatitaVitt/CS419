@@ -1,0 +1,17 @@
+1. Briefly describe the approach you took.
+ N-Grams, where n = 3
+
+2. If you incorporated n-gram analysis:
+• What length of n-grams did you use and why?
+ I used the length 3 for n-grams since 3 is the most common length that appears in the Known Text file given
+ 
+3. If you incorporated an search/iterative approach:
+• What letter mapping does your program start off with? and how does your program iteratively try to find better letter mappings?
+• What metric did you use in order to grade letter mappings being searched. Another way to think about this question is, "How does your program figure out which letter mapping to keep or which one to reject?"
+• How does your program determine when to stop?
+
+4. How did your program perform on the sample cipher text? Was Is it more accurate at recovering plaintext compared to straight frequency matching done in your CrackCipher program in part 2? If so, how much better? If not, why do you think that is? Do you think you can make it better?
+
+I didn't perform it on the sample cipher text since there is no time for me to do so. Note that this program will output the mapping for 1-grams, 2-grams, 3-grams. From the mapping of 3-grams it already shows most of the 3-letter word of mapping. And the basic idea is that for every line in sample cipher text file, it will search for 3-letter encrpyted word first and search it from the 3-grams mapping, and find the corresponding encrpyted 3-letter word. And after found all the 3-letter words. Then we will find in 2-grams mapping and lastly, if some letter is still last, try to find it in 1-gram mapping. it is more accurate at recoving plaintext compared to straight frequency matching.
+
+Note that this program will run 6 mins.

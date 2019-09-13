@@ -1,0 +1,8 @@
+It is now Feb 26 2017 19:00:00
+The earliest allowable time is Fri Jan  1 00:00:00 2016
+This software expires at Fri Jun 15 01:00:00 2018
+----------
+Feb 26 2017 19:00:00: access granted! 
+The current time is: Feb 27 2019 17:47:29
+PASSED! You reset the time successfully!
+| sv439 02047 completion code 0 |

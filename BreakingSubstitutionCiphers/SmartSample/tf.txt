@@ -1,0 +1,28 @@
+this is a testfile
+and this is the second line of the testfile
+thirddd!!
+
+
+listPossible2()
+
+listPossible3(listPossibleOf2)
+
+listPossibleN(N, listPossibleOf2, listPossibleOf3)
+
+
+freqAnalysis(FileName, possibleList, length)
+	return CountingList, possibleList (removed zeros)
+
+sortingLists(SortingListNum1, SortingListLetter1, SortingListNum2, SortingListLetter2, Num)
+	return mappingList
+
+
+
+[['z', ' ', 'j', 'l', 'g', 'r', 'v', 'w', 'e', 'q', 'p', 'n', 'x', 't', 'u', 'm', 'y', 'i'], 
+['q', 'k', 'c', 'v', 'g', 'd', 'm', 'y', 'f', 'b', 'w', 'l', 's', 'n', 't', 'e', 'r', 'a']]
+
+
+[[' p', '  ', ' x', 'we', 'zp', 'yr', 'yp', 'ze', 'zx', 'ys', ' m', 'wl', 'yh', 'qe', 'rf', 'zt', 'fr', 'yz', 't ', 'qm', 'xn', ' t', 'zf', 'xy', ' e', 'pi', 'x ', 'wm', 'pq', 'yj', 'zi', 'xe', ' y', 'zy', 'tv', 'yl', 'zu', 'vu', 'vm', 'w ', 'ym', 'xm', 'lt', 'wi', 'nf', 'ut', 'y ', 'vy', 'rt', 'qf', 'yw', 'pn', 'vf', 'xt', ' f', 'tr', 'fy', 'mn', 'en', 'ef', 'fe', 'nt', 'ww', 'tq', 'iq', 'ri', 'ye', 'um', 'ir', 'yx', 'fq', 'f ', 'ti', 'li', 'ij', 'tx', 'tp', 'xi', 'fx', 'yn', 'ig', 'it', 'uy', 'mq', 'xf', 'qi', 'ie', 'q ', 'iv', 'ei', 'yq', 'im', 'ni', ' i', 'uf', 'nu', 'in', 'fi'], 
+['cn', 'aj', 'bv', 'ax', 'eq', 'fs', 'db', 'lw', 'xi', 'hs', 'yt', 'az', 'ky', 'ah', 'ib', 'oe', 'ju', 'rw', 'dw', 'mr', 'du', 'gg', 'yi', 'rg', 'ex', 'ys', 'va', 'hu', 'rm', 'dy', 'gu', 'nn', 'bb', 'fu', 'rl', 'gl', 'fl', 'mp', 'lu', 'gs', 'dl', 'af', 'ud', 'sl', 'dd', 'ue', 'ls', 'vi', 'ru', 'by', 'my', 'hr', 'ob', 'oi', 'oa', 'ab', 'gi', 'cr', 'cl', 'cl', 'pp', ' v', 'nl', 'ov', 'iv', 'sp', 'pi', 'ba', 'ba', 'ba', 'ep', 'ep', 'ye', 'su', 'wn', 'lf', 'up', 'tt', 'ef', 'bl', 'fi', 'ok', 'ei', 'ny', 'nc', 'ic', 'os', 'bi', 'if', 'po', 'fe', 'p ', 'ev', 'ds', 'pa', 'fa', 'ry', 'ck']]
+
+
